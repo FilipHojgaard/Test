@@ -13,5 +13,5 @@ git pull 							// puller master branch. burde virke
 git pull origin master				// eller puller denne her direkte fra master branch (pull før du pusher)
 
 push:
-git pusher 							// pusher dit commit. burde 
+git push							// pusher dit commit. burde 
 git push origin master 				// pusher direkte til master branch

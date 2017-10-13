@@ -1,17 +1,21 @@
+﻿Sætter 'profil' op:
+git config --global user.name "skriv navn her"			// Forstår at dette er dit navn til commits.
+git config --global user.email "din_email@dinemail.com"		// Forstår at dette er din mail
+
 når man laver en repo:
 git init							// laver en mappe til en git mappe
 git status 							// tjekker filer der er commited eller ej
-git remote add origin url.git		// Forbinder til github repo
-git remote -v						// tjekker om den er god nok
+git remote add origin url.git					// Forbinder til github repo
+git remote -v							// tjekker om den er god nok
 
 Laver Commit:
-git add testfil.txt		 			// adder testfil.txt så den er klar til at commite
-git commit -m "wup" 				// commiter de addede filer med kommentaren "wup"
+git add testfil.txt		 				// adder testfil.txt så den er klar til at commite
+git commit -m "wup" 						// commiter de addede filer med kommentaren "wup"
 
 Pull:
 git pull 							// puller master branch. burde virke
-git pull origin master				// eller puller denne her direkte fra master branch (pull før du pusher)
+git pull origin master						// eller puller denne her direkte fra master branch (pull før du pusher)
 
 push:
 git push							// pusher dit commit. burde 
-git push origin master 				// pusher direkte til master branch
+git push origin master 						// pusher direkte til master branch

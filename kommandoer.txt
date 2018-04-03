@@ -10,6 +10,7 @@ git remote -v							// tjekker om den er god nok
 
 Laver Commit:
 git add testfil.txt		 				// adder testfil.txt så den er klar til at commite
+git add .                    // adder ALT nyt eller opdateret, så det er klart til at commite
 git commit -m "wup" 						// commiter de addede filer med kommentaren "wup"
 
 Pull:
